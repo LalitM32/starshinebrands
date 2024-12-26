@@ -1,0 +1,100 @@
+.app__booking-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__booking-form_content {
+    background: var(--color-black);
+    padding: 4rem;
+    border: 1px solid var(--color-golden);
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem;
+}
+
+.app__booking-form_header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.app__booking-form_fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-field {
+    width: 100%;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background: transparent;
+    border: 1px solid var(--color-golden);
+    color: var(--color-white);
+    outline: none;
+}
+
+.form-field textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+    color: var(--color-grey);
+}
+
+.form-field input[type="date"],
+.form-field input[type="time"] {
+    color-scheme: dark;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--color-golden);
+    font-size: 2rem;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 650px) {
+    .app__booking-form_content {
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+} 

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 10" width="40" height="10">
+	<title>spoon-svg</title>
+	<defs>
+		<image  width="40" height="10" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAKCAMAAADxROxiAAAAAXNSR0IB2cksfwAAAIdQTFRFAAAASkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKcRNWSgAAAC10Uk5TABaLv8CXI7b3uHNu+84XG5MKlPFwKtmbyv6z7eX9AgT6/NbTHfnDEvMw7jyPMVequgAAAH5JREFUeJxjZMALGIEASPwCsvCqYwcp/P+fmZHxEz6F/D85GN+DGIKMjG8ZRbBb+RpIiDG+hPHFGRklsZnJyPgCSEoyPoIJyONXyPQQrpAJn9VKXxFW8+DzjArQyzdBDPX/TP/xBo8m4+c34ODh+YY3eIBAm/EGw3/NH3cYGAAxbh2uFO+HMwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0"/>
+</svg>

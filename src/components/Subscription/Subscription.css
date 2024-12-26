@@ -1,0 +1,178 @@
+.app__subscription {
+    flex-direction: column;
+    background: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 6rem;
+    position: relative;
+    z-index: 1;
+}
+
+.app__subscription-title {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.app__subscription-plans {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.app__subscription-card {
+    flex: 1;
+    background: linear-gradient(#314a38, rgba(#314a38), #314a38(0, 0, 0, 0.85));
+    border: 1px solid #314a38(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 3rem 2.5rem;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 32px #314a38(0, 0, 0, 0.1);
+    border: 2px solid var(--color-golden);
+}
+
+.app__subscription-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-color: #314a38(255, 255, 255, 0.2);
+    
+}
+
+.app__subscription-card.popular {
+    border: 2px solid var(--color-golden);
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #314a38(0, 0, 0, 0.98), #314a38(0, 0, 0, 0.88));
+}
+
+.app__subscription-card.popular:hover {
+    transform: scale(1.05) translateY(-12px);
+}
+
+.popular-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-golden);
+    color: var(--color-black);
+    padding: 0.6rem 2rem;
+    border-radius: 25px;
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    box-shadow: 0 4px 12px #314a38(0, 0, 0, 0.15);
+}
+
+.subscription-tier {
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background: linear-gradient(to right, var(--color-golden), #314a38);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subscription-price {
+    text-align: center;
+    margin: 2.5rem 0;
+    color: var(#314a38);
+    font-family: var(--font-base);
+}
+
+.price-currency {
+    font-size: 28px;
+    vertical-align: top;
+    margin-right: 4px;
+    opacity: 0.9;
+}
+
+.price-amount {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.price-period {
+    font-size: 16px;
+    color: var(--color-grey);
+    margin-left: 4px;
+}
+
+.subscription-perks {
+    list-style: none;
+    margin: 2.5rem 0;
+    padding: 0;
+}
+
+.subscription-perks li {
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+}
+
+.perk-checkmark {
+    color: var(--color-golden);
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.subscription-button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    padding: 0.8rem;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(#314a38);
+}
+
+@media screen and (max-width: 1150px) {
+    .app__subscription-plans {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .app__subscription-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .app__subscription-card.popular {
+        transform: scale(1);
+    }
+
+    .app__subscription-card.popular:hover {
+        transform: translateY(-10px);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .subscription-tier {
+        font-size: 28px;
+    }
+
+    .price-amount {
+        font-size: 40px;
+    }
+
+    .subscription-perks li {
+        font-size: 14px;
+    }
+} 

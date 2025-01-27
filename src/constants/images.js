@@ -1,25 +1,25 @@
-import bg from '../assets/bg.webp';
-import chef from '../assets/chef.webp';
+import bg from '../assets/bg.png';
+import chef from '../assets/chef.png';
 import G from '../assets/G.webp';
-import gallery01 from '../assets/gallery01.webp';
-import gallery02 from '../assets/gallery02.webp';
-import gallery03 from '../assets/gallery03.webp';
-import gallery04 from '../assets/gallery04.webp';
-import knife from '../assets/knife.webp';
+import gallery01 from '../assets/g1.jpg';
+import gallery02 from '../assets/g2.jpg';
+import gallery03 from '../assets/g3.jpg';
+import gallery04 from '../assets/g4.jpg';
+import knife from '../assets/knife.png';
 import logo from '../assets/logo.webp';
-import menu from '../assets/menu.webp';
+import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
-import welcome from '../assets/welcome.webp';
-import findus from '../assets/findus.webp';
-import laurels from '../assets/laurels.png';
+import welcome from '../assets/hero.jpg';
+import findus from '../assets/t2.jpg';
+import laurels from '../assets/L.jpg';
 import award01 from '../assets/award01.webp';
 import award02 from '../assets/award02.webp';
 import award03 from '../assets/award03.webp';
 import award05 from '../assets/award05.webp';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.webp';
-import gericht from '../assets/gericht.webp';
+import gericht from '../assets/gericht.png';
 
 export default {
   bg,

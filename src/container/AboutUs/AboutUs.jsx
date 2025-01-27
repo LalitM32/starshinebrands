@@ -14,9 +14,9 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Ivoryy is elegance redefined. A harmonious blend of Mediterranean, European, and Asian flavors, we deliver a sophisticated dining experience inspired by rich culinary traditions and modern innovation.
+          Aviaryy is elegance redefined. A harmonious blend of Mediterranean, European, and Asian flavors, we deliver a sophisticated dining experience inspired by rich culinary traditions and modern innovation.
         </p>
-        <button type="button" className="custom__button">Know More</button>
+        <button type="button" className="custom__button text-right">Know More</button>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -29,7 +29,7 @@ const AboutUs = () => (
         <p className="p__opensans">
           From its roots as &ldquo;Aviaryy,&rdquo; Ivoryy has grown into a symbol of luxury dining. Known for its timeless charm, our vibrant menu and impeccable service set new standards for refined taste.
         </p>
-        <button type="button" className="custom__button">Know More</button>
+        <button type="button" className="custom__button text-right">Know More</button>
       </div>
     </div>
   </div>

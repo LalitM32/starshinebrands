@@ -59,23 +59,23 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'time-food-2024',
-    subtitle: 'TIME Food & Nightlife Awards 2024',
+    title: 'Elegant',
+    subtitle: 'Renowned for its cozy, stylish interiors.',
   },
   {
     imgUrl: images.award01,
-    title: 'Outstanding Chef',
-    subtitle: 'Youngest Celebrity Chef Award',
+    title: 'Top Cuisine',
+    subtitle: ' Acclaimed for its exceptionally delicious menu',
   },
   {
     imgUrl: images.award05,
-    title: 'TIME Hospitality Icons 2023',
-    subtitle: 'TIME Hospitality Icons 2023',
+    title: 'Hospitality',
+    subtitle: 'Famous for outstanding service.',
   },
   {
     imgUrl: images.award03,
-    title: 'Delicious Dining',
-    subtitle: 'Delicious Dining Awards 2022',
+    title: 'Local Favorite',
+    subtitle: 'A must-visit for locals and travelers alike.',
   },
 ];
 

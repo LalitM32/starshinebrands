@@ -26,6 +26,32 @@
     margin-bottom: 2rem;
 }
 
+.mode-toggle {
+    margin-bottom: 2rem;
+}
+
+.button {
+    padding: 0.75rem 1.5rem;
+    background-color: transparent;
+    color: var(--color-golden);
+    border: 2px solid var(--color-golden);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button.active {
+    background-color: var(--color-golden);
+    color: var(--color-black);
+    border: 2px solid var(--color-black);
+}
+
+.button:hover {
+    background-color: var(--color-golden);
+    color: var(--color-black);
+}
+
 .app__booking-form_fields {
     display: flex;
     flex-direction: column;
@@ -97,4 +123,11 @@
     .form-row {
         flex-direction: column;
     }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 } 

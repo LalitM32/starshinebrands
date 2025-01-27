@@ -13,9 +13,9 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">T- 540, panchshila park, Malviya nagar road, New Delhi, Delhi, 110017</p>
-        <p className="p__opensans">Hi@Ivory.in</p>
-        <p className="p__opensans">+91 092-890-702-22</p>
+        <p className="p__opensans">122/732,733, Basement, near Hotel Bhagyaraj Palace, Industrial Estate, Shastri Nagar, Kanpur, Uttar Pradesh 208005</p>
+        <p className="p__opensans">Hi@Aviaryy.in</p>
+        <p className="p__opensans">079915 65477</p>
       </div>
 
       <div className="app__footer-links_logo">
@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2024 Ivory. All Rights reserved.</p>
+      <p className="p__opensans">2025 Aviaryy. All Rights reserved.</p>
     </div>
 
   </div>
